@@ -15,7 +15,7 @@ rust_lib = ctypes.CDLL('./quicksort/target/release/libquicksort.so')
 rust_lib.quicksort.argtypes = [ctypes.POINTER(ctypes.c_int), ctypes.c_int]
 
 def test_quicksort():
-    # Test with a random list of 1000 integers
+    # Test with a random list of 100000000 integers
     size = 100000000
     arr = [random.randint(0, 10000) for _ in range(size)]
     
