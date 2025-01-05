@@ -15,8 +15,13 @@ This repository contains two implementations of the QuickSort algorithm: one wri
 
 ## Setup and Installation
 
+```bash
+gcc -shared -o libquicksort.so -fPIC -O3 -march=native -flto -funroll-loops quicksort.c
+```
 
+```bash
 
+```
 
 ### Prerequisites
 
