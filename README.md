@@ -9,7 +9,7 @@ This repository contains two implementations of the QuickSort algorithm: one wri
 ## Key Features
 
 - **C Implementation**: A traditional C implementation of the QuickSort algorithm.
-- **Rust Implementation**: A modern, memory-safe implementation of QuickSort in Rust, taking advantage of Rust's ownership and borrowing model.
+- **Rust Implementation**: A modern, memory-safe implementation of QuickSort in Rust.
 - **Performance Benchmarking**: Testing the speed of sorting a random list of numbers.
 
 
