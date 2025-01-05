@@ -1,2 +1,28 @@
 # ComparingCandRustQuicksort
-Comparing C and Rust Quicksort library in python
+
+A performance comparison between the C and Rust implementations of the classic QuickSort algorithm.
+
+## Overview
+
+This repository contains two implementations of the QuickSort algorithm: one written in **C** and the other in **Rust**. The goal of this project is to compare the performance, of QuickSort in these two languages.
+
+## Key Features
+
+- **C Implementation**: A traditional C implementation of the QuickSort algorithm.
+- **Rust Implementation**: A modern, memory-safe implementation of QuickSort in Rust, taking advantage of Rust's ownership and borrowing model.
+- **Performance Benchmarking**: Testing the speed of sorting a random list of numbers.
+
+
+## Setup and Installation
+
+
+
+
+### Prerequisites
+
+- **C Compiler**: Make sure you have a C compiler installed, such as GCC or Clang.
+- **Rust Toolchain**: Install the Rust programming language via [rustup](https://rustup.rs/).
+- **Benchmarking Tools**: Python
+
+
+
