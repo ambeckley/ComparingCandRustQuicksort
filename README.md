@@ -20,7 +20,12 @@ gcc -shared -o libquicksort.so -fPIC -O3 -march=native -flto -funroll-loops quic
 ```
 
 ```bash
+cargo --lib new quicksort
+```
+Then add the code from lib.rs and use the Cargo.toml
 
+```bash
+python test.py
 ```
 
 ### Prerequisites
@@ -30,4 +35,7 @@ gcc -shared -o libquicksort.so -fPIC -O3 -march=native -flto -funroll-loops quic
 - **Benchmarking Tools**: Python
 
 
+### Results
+
+C was generally 10% faster than Rust.
 
