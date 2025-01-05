@@ -23,6 +23,9 @@ gcc -shared -o libquicksort.so -fPIC -O3 -march=native -flto -funroll-loops quic
 cargo --lib new quicksort
 ```
 Then add the code from lib.rs and use the Cargo.toml
+```bash
+cargo build --release
+```
 
 ```bash
 python test.py
