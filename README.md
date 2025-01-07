@@ -2,6 +2,8 @@
 
 A performance comparison between the C and Rust implementations of the classic QuickSort algorithm.
 
+Full article explaining the process can be found here: [Measuring the Execution Times of C Versus Rust](https://towardsdatascience.com/measuring-the-execution-times-of-c-versus-rust-bc45c577052a). 
+
 ## Overview
 
 This repository contains two implementations of the QuickSort algorithm: one written in **C** and the other in **Rust**. The goal of this project is to compare the performance, of QuickSort in these two languages.
