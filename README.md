@@ -22,7 +22,7 @@ gcc -shared -o libquicksort.so -fPIC -O3 -march=native -flto -funroll-loops quic
 ```
 
 ```bash
-cargo --lib new quicksort
+cargo new quicksort
 ```
 Then add the code from lib.rs and use the Cargo.toml
 ```bash
