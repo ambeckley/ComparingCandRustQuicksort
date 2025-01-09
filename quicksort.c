@@ -1,4 +1,9 @@
 // quicksort.c
+
+// Function prototype for partition, some C compilers need this here or it throws error.
+int partition(int arr[], int low, int high);
+
+
 void quicksort(int arr[], int low, int high) {
     if (low < high) {
         int pivot_index = partition(arr, low, high);
