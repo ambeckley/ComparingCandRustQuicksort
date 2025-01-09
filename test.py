@@ -8,7 +8,7 @@ c_lib = ctypes.CDLL('./libquicksort.so')
 # C function prototypes
 c_lib.quicksort.argtypes = [ctypes.POINTER(ctypes.c_int), ctypes.c_int, ctypes.c_int]
 
-# Load the Rust library
+# Load the Rust library // Depending on the system built on this file name might change.
 rust_lib = ctypes.CDLL('./quicksort/target/release/libquicksort.so')
 
 # Rust function prototype
