@@ -2,7 +2,7 @@
 
 A performance comparison between the C and Rust implementations of the classic QuickSort algorithm.
 
-Full article explaining the process can be found here: [Measuring the Execution Times of C Versus Rust](https://towardsdatascience.com/measuring-the-execution-times-of-c-versus-rust-bc45c577052a). 
+Full article explaining the process can be found here: [Measuring the Execution Times of C Versus Rust](https://medium.com/data-science/measuring-the-execution-times-of-c-versus-rust-bc45c577052a). 
 
 ## Overview
 
